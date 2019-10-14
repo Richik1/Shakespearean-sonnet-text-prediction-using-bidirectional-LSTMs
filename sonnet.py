@@ -12,9 +12,9 @@ from tensorflow.keras.layers import Embedding, LSTM, Dense, Dropout, Bidirection
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.optimizers import Adam
-### YOUR CODE HERE
-from tensorflow.keras import regularizers# Figure out how to import regularizers
-###
+
+from tensorflow.keras import regularizers
+
 import tensorflow.keras.utils as ku 
 import numpy as np
 
